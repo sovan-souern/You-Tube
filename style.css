@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+nav{
+    width: 100%;
+}
+nav .logo-container{
+    width: 95%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.logo-img img{
+    width: 50px;
+    height: 50px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo i{
+    margin-right: 20px;
+    margin-bottom: 32px;
+}
+.logo-img{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.search-conten{
+    display: flex;
+    align-items: center;
+}
+form{
+    width: 100%;
+}
+form input{
+    width: 550px;
+    padding: 10px;
+    border-radius: 25px;
+    border: 1px solid gray;
+    font-size: 16px;
+}
+.search{
+    background: none;
+    border: none;
+    position: relative;
+    bottom: 40px;
+    left: 520px;
+}
+
+/* hey */
+
+
+button {
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 1px;
+    bottom: 20px;
+}
+.mic{
+    width: 50px;
+    height: 45px;
+    border-radius: 100%;
+    border: none;
+    position: relative;
+    right: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+} 
+.acc{
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    border: #ddd solid 1px;
+    height: 35px;
+    margin-bottom: 37px;
+
+}
+.acc i{
+    font-size: 26px;
+    margin-right: 10px;
+}
+.acc:hover{
+    background-color: rgb(177, 177, 247);
+}
+img{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 100px;
+}
+.main-container button:hover{
+    background-color: #ddd;
+}
+
+header{ 
+    height:140vh ; 
+    flex: 8; 
+    display: flex;  
+    flex-direction: row;
+    gap: 15px;
+}
+.section{
+    height: 100vh;
+    width: 20%;
+    display: flex;
+    flex: 1.5;
+    flex-direction: column;
+    padding: 0 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+     
+    
+}
+body{
+    width: 100%;
+}
+
+.aside{
+    height:20vh;
+    display: flex;
+    background: #edebeb36;
+    align-items: center;
+    gap: 30px;
+    padding: 0  0 15px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.aside i{
+    width: 10px;
+}
+hr{
+    margin: 10px ;
+}
+#home{
+    color: black;
+}
+p{
+    font-size: 15px;
+    color: rgba(1, 12, 12, 0.893);
+    padding: 2px 0;
+}
+.img{
+    width: 30px;
+    height: 25px;
+}
+.main{
+    height: 100vh;
+    width: 85%;
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+}
+.main-container{
+    display: flex;
+    flex: 1;
+    justify-content: space-around;
+    align-items: center;
+}
+button{
+    height: 6vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 7px;
+}
+.main-contant{
+    display: flex;
+    flex: 12;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+.card{
+    width: 30%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    
+}
+.main-video{
+    flex: 3;
+}
+.main-text{
+    display: flex;
+    flex: 1;
+    gap: 15px;
+    font-size: 15px;
+}
+img{
+    width: 30px; 
+    height: 30px;
+    object-fit: cover; 
+    border-radius: 100px;
+}
+.main-text-post{
+    display: flex;
+    flex-direction: column;
+}
+.h5{
+    display: flex;
+    gap: 20px;
+}
+.h5 ,h5{
+    color: #2422226f;
+}
+iframe{
+    border-radius: 10px;
+}
+.login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.btn{
+    width: 100px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: blue;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+.btn i{
+    margin-right: 10px;
+}
+#hello{
+    background-color: black;
+    color: #fff;
+    width: 50px;
+    border-radius: 10px;
+}
+#hello:hover{
+    background-color: gray;
+
+}
+
+
